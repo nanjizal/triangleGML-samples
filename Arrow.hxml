@@ -1,0 +1,14 @@
+-cp src
+--cpp cpp
+-lib justPath
+-lib pixelimageXY
+-lib triangleGML
+-lib format
+-lib Vision
+-main triangleGML_samples.pixelimage.Arrow
+-dce full
+--times
+#--no-traces
+--next
+-cmd cd cpp/
+-cmd ./Arrow
