@@ -1,0 +1,12 @@
+{
+    "name"         : "triangleGML-samples",
+    "url"          : "https://github.com/nanjizal/triangleGML-sample#triangleGML-sample",
+    "license"      : "MIT",
+    "tags"         : ["cross", "image", "2d"],
+    "description"  : "TriangleGML-samples",
+    "version"      : "0.0.1-alpha",
+    "releasenote"  : "See https://github.com/nanjizal/triangleGML-samples/blob/master/CHANGELOG.md",
+    "contributors" : ["Nanjizal"],
+    "classPath"    : "src",
+    "dependencies" : {}
+}
