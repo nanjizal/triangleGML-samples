@@ -23,14 +23,14 @@ Samples that currently work &check; and samples that need debugging &cross;, or 
 - [Quint](generatedImages/quint.png) &cross;    
 - [Radial](generatedImage/radial.png) &#9888;  
 - [Rectangle](generatedImages/rectangle.png) &cross;  
-- [Rotate](generatedImages/rotate.png) &#9889;  
-- [Skew](generateImages/skew.png) &#9889;  
-- [SoftEdge](generateImages/softEdge.png) &#9889;   
-- [Star](generateImages/star.png) &#9889; no implementation in pixelimageXY! yet..
-- [Text](generateImages/text.png) &#9889; no implementation in pixelimageXY! yet..
-- [Thick](generateImages/thick.png) &#9889;  
-- [Triangle](generateImages/triangle.png) &#9889;  
-- [Ve](generateImages/Ve.png) &#9889;  
+- [Rotate](generatedImages/rotate.png) &#9888;  
+- [Skew](generateImages/skew.png) &#9888;  
+- [SoftEdge](generateImages/softEdge.png) &#9888;   
+- [Star](generateImages/star.png) &#9888; no implementation in pixelimageXY! yet..
+- [Text](generateImages/text.png) &#9888; no implementation in pixelimageXY! yet..
+- [Thick](generateImages/thick.png) &#9888;  
+- [Triangle](generateImages/triangle.png) &#9888;  
+- [Ve](generateImages/Ve.png) &#9888;  
 
 <sub>Currently the examples are setup for the haxe c++ target to create png's.</sub>    
 <sub>Initially **pixelImageXY** was developed in Haxe Javascript target, rendered on a Canvas.</sub>     
