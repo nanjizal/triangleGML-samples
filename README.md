@@ -6,12 +6,31 @@ Samples that currently work &check; and samples that need debugging &cross;, or 
 - [Arrow](generatedImages/arc.png) &cross;  
 - [Arc](generatedImages/arc.png) &check;  
     <img src="generatedImages/arc.png" width="250"/>
-- [curve](generatedImages/curve.png) &#9888; 
+- [Curve](generatedImages/curve.png) &#9888; 
 - [Ellipse](generatedImages/ellipse.png) &check;    
     <img src="generatedImages/ellipse.png" width="250"/>
-- [&check;] [Quad](generatedImages/quad.png) &check;    
+- [Gradient] &#9888; template sample needed
+- [Grid](generatedImages/grid.png) &cross;
+- [GlowLine] &#9888; template sample and pixelimageXY required.
+- [Line](generatedImages/line.png) &cross;  
+- [NineSlice](generatedImages/nineSlice.png) &#9888; Need to integrate reading format extract32 png with pixelimagXY and reading base 64 embed string. 
+- [Path](generatedImages/path.png) &#9888; Need to check over path renderer.
+- [Pattern](generateImage/pattern.png) &#9888; Lightly to be a mix of pattern shapes. 
+- [Picture](generatedImages/picture.png) &#9888; Need to integrate reading format extract32 png with pixelimagXY and reading base 64 embed string.  
+- [Poly](generatedImages/poly.png) &#9888;
+- [Quad](generatedImages/quad.png) &check;    
     <img src="generatedImages/quad.png" width="250"/>
-- more to add...
+- [Quint](generatedImages/quint.png) &cross;    
+- [Radial](generatedImage/radial.png) &#9888;  
+- [Rectangle](generatedImages/rectangle.png) &cross;  
+- [Rotate](generatedImages/rotate.png) &#9889;  
+- [Skew](generateImages/skew.png) &#9889;  
+- [SoftEdge](generateImages/softEdge.png) &#9889;   
+- [Star](generateImages/star.png) &#9889; no implementation in pixelimageXY! yet..
+- [Text](generateImages/text.png) &#9889; no implementation in pixelimageXY! yet..
+- [Thick](generateImages/thick.png) &#9889;  
+- [Triangle](generateImages/triangle.png) &#9889;  
+- [Ve](generateImages/Ve.png) &#9889;  
 
 <sub>Currently the examples are setup for the haxe c++ target to create png's.</sub>    
 <sub>Initially **pixelImageXY** was developed in Haxe Javascript target, rendered on a Canvas.</sub>     
