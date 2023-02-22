@@ -20,7 +20,7 @@ Samples that currently work [&check;] and samples that need debugging [&cross;],
 - [&cross;] [Arrow](generatedImages/arc.png)
 - [&check;] [Arc](generatedImages/arc.png) ![Arc](generatedImages/arc.png|width=100px)
 - [ ] [curve](generatedImages/curve.png)
-- [&check;] [Ellipse](generatedImages/ellipse.png) ![Ellipse](generatedImages/ellipse.png | width="100" )
+- [&check;] [Ellipse](generatedImages/ellipse.png) <img src="generatedImages/ellipse.png" width="100">
 - [&check;] [Quad](generatedImages/quad.png) ![Ellipse](generatedImages/quad.png | width="100" )
 - more to add...
 
