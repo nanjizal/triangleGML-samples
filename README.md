@@ -18,9 +18,9 @@ In theory pixelimageXY can be used on any haxe target/toolkit although transfer 
 ## Generated images
 Samples that currently work [&check;] and samples that need debugging [&cross;], or are not wired up [ ].
 - [&cross;] [Arrow](generatedImages/arc.png)
-- [&check;] [Arc](generatedImages/arc.png)
+- [&check;] [Arc](generatedImages/arc.png)  
     <img src="generatedImages/arc.png" width="250">
-- [_] [curve](generatedImages/curve.png)
+- [_] [curve](generatedImages/curve.png)  
 - [&check;] [Ellipse](generatedImages/ellipse.png) 
     <img src="generatedImages/ellipse.png" width="250">
 - [&check;] [Quad](generatedImages/quad.png) ![Ellipse](generatedImages/quad.png | width="100" )
