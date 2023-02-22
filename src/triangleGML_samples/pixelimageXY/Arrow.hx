@@ -1,4 +1,4 @@
-package triangleGMLsamples.pixelimageXY;
+package triangleGML_samples.pixelimageXY;
 
 import pixelimageXY.Pixelshape;
 import pixelimageXY.formats.Format;
@@ -8,16 +8,17 @@ function main(){
     // TODO: change arrows to include open
     var pixelShape = new Pixelshape( 1024*3, 768*3 );
     pixelShape.transparent = true;
+    pixelShape.simpleRect( 0, 0, pixelShape.width, pixelShape.height, 0xFF000000 );
     var parser = new TriangleGML( pixelShape );
-    parser.addShape( aGrid,         10,    0 );
+    // parser.addShape( aGrid,         10,    0 );
     for( anArrow in [ arrowShapeTest
                     , arrowShapeReverseFlareTest
                     , arrowShapeFlareTest
-                    , arrowThickGradientTest
+                    //, arrowThickGradientTest
                 ]){
         parser.addShape( anArrow );
     }
-    toPNG( pixelShape, 'arrow.png' );
+    toPNG( pixelShape, '../generatedImages/arrow' );
 }
 
 var aGrid = 
@@ -45,7 +46,7 @@ var arrowShapeReverseFlareTest: String =
     x2="360" y2="120" 
     arrowWidth="60"
     arrowHeight="50"
-    soft="10."
+    edgeSoft="10."
     strokeWidth="5" strokeColor="0xffFF0000">
 </ArrowShape>';
 var arrowShapeFlareTest: String = 
@@ -56,7 +57,7 @@ var arrowShapeFlareTest: String =
     x2="560" y2="720" 
     arrowWidth="60"
     arrowHeight="50"
-    soft="10."
+    edgeSoft="10."
     strokeWidth="5" strokeColor="0xff00FF00">
 </ArrowShape>';
 var arrowThickGradientTest: String = 

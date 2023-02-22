@@ -1,4 +1,4 @@
-package triangleGMLsamples.pixelimageXY;
+package triangleGML_samples.pixelimageXY;
 
 import pixelimageXY.Pixelshape;
 import pixelimageXY.formats.Format;
@@ -8,15 +8,23 @@ function main(){
     var pixelShape = new Pixelshape( 1024*3, 768*3 );
     pixelShape.transparent = true;
     var parser = new TriangleGML( pixelShape );
+    parser.addShape( backGround ); // investigate why need to oversize.
     parser.addShape( aGrid,         10,    0 );
     for( anEllipse in [ ellipseTest
                       , circleTest
                       , softEllipseTest ]){
-        parser.addShape( anArrow );
+        parser.addShape( anEllipse );
     }
-    toPNG( pixelShape, 'ellipse.png' );
+    toPNG( pixelShape, '../generatedImages/ellipse' );
 }
-
+var backGround = 
+'<RectangleForm
+    left = "-1"
+    top = "-1"
+    width = "3073"
+    height = "2305"
+    fill = "0xFF000203">
+</RectangleForm>';
 var aGrid = 
 '<LineGridShape
     left = "100"  top = "100"
@@ -26,25 +34,25 @@ var aGrid =
 </LineGridShape>';
 
 var ellipseTest =  
-'<EllipseShape 
+'<EllipseForm 
     top="100" 
     width="200" 
     height="50" 
     strokeColor="0xFF0000" strokeWidth="1" 
     fill="0xFF00FF00">
-</EllipseShape>';
+</EllipseForm>';
 var circleTest: String = 
-'<CircleShape 
+'<CircleForm 
     left="200" top="200" 
     diameter="300" 
     strokeColor="0xFFFF0000" strokeWidth="10" 
     fill="0xFF00FF00">
-</CircleShape>';
+</CircleForm>';
 var softEllipseTest: String = 
-'<EllipseShape 
+'<EllipseForm 
     left="500" top="500" 
     width="400" 
     height="400" 
-    strokeColor="0xFFFF0000"
-    softEdge="10">
-</SoftEllipseShape>';
+    fill="0xFFF00000"
+    edgeSoft="90">
+</EllipseForm>';
