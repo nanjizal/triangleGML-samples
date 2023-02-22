@@ -3,13 +3,13 @@ A samples folder shows XML shapes rendered as pixels in CPU software coded with 
   
 ## Generated images
 Samples that currently work &check; and samples that need debugging &cross;, or are not wired up &#9888;.
-- [Arrow](generatedImages/arc.png)&cross;  
-- [Arc](generatedImages/arc.png)&check;  
+- [Arrow](generatedImages/arc.png) &cross;  
+- [Arc](generatedImages/arc.png) &check;  
     <img src="generatedImages/arc.png" width="250"/>
-- [curve](generatedImages/curve.png)&#9888; 
-- [Ellipse](generatedImages/ellipse.png)&check;    
+- [curve](generatedImages/curve.png) &#9888; 
+- [Ellipse](generatedImages/ellipse.png) &check;    
     <img src="generatedImages/ellipse.png" width="250"/>
-- [&check;] [Quad](generatedImages/quad.png)&check;    
+- [&check;] [Quad](generatedImages/quad.png) &check;    
     <img src="generatedImages/quad.png" width="250"/>
 - more to add...
 
