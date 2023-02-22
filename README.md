@@ -21,9 +21,10 @@ Samples that currently work [&check;] and samples that need debugging [&cross;],
 - [&check;] [Arc](generatedImages/arc.png)  
     <img src="generatedImages/arc.png" width="250">
 - [_] [curve](generatedImages/curve.png)  
-- [&check;] [Ellipse](generatedImages/ellipse.png) 
+- [&check;] [Ellipse](generatedImages/ellipse.png)  
     <img src="generatedImages/ellipse.png" width="250">
-- [&check;] [Quad](generatedImages/quad.png) ![Ellipse](generatedImages/quad.png | width="100" )
+- [&check;] [Quad](generatedImages/quad.png)  
+    <img src="generatedImages/quad.png" width="250"/>
 - more to add...
 
 ## **CURRENTLY The relevant dev folders for pixelimageXY and triangleGML have not been commited on github, but need to test render of readme.**
