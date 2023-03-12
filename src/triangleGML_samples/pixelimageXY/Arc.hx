@@ -9,15 +9,24 @@ function main(){
     pixelShape.transparent = true;
     pixelShape.simpleRect( 0, 0, pixelShape.width, pixelShape.height, 0xFF000000 );
     var parser = new TriangleGML( pixelShape );
-    parser.addShape( aGrid, 10, 10 );
-    parser.addShape( arcPie,         10,    0 );
-    parser.addShape( arcEllipse,        10,  500 );
-    parser.addShape( arcChord,    10, 1000 );
-    parser.addShape( arcPie2,      1210,    0 );
-    parser.addShape( arcEllipse2,     1210,  500 );
-    parser.addShape( arcChord2, 1210, 1000 );
+    parser.addShape( aGrid,         10,   10 );
+    parser.addShape( arcPie,        10,    0 );
+    parser.addShape( arcEllipse,    10,  500 );
+    parser.addShape( arcChord,      10, 1000 );
+    parser.addShape( arcPie2,     1210,    0 );
+    parser.addShape( arcEllipse2, 1210,  500 );
+    parser.addShape( arcChord2,   1210, 1000 );
     toPNG( pixelShape, '../generatedImages/arc' );
 }
+
+var backGround = 
+'<RectangleForm
+    left = "-1"
+    top = "-1"
+    width = "3073"
+    height = "2305"
+    fill = "0xFF000203">
+</RectangleForm>';
 
 var aGrid = 
 '<LineGridShape

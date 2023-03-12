@@ -5,7 +5,7 @@
 -lib triangleGML
 -lib format
 -lib Vision
--main triangleGML_samples.pixelimage.Grid
+-main triangleGML_samples.pixelimageXY.Grid
 -dce full
 --times
 #--no-traces

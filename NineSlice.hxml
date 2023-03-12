@@ -5,9 +5,10 @@
 -lib triangleGML
 -lib format
 -lib Vision
--main triangleGML_samples.pixelimage.NineSlice
+-main triangleGML_samples.pixelimageXY.NineSlice
 -dce full
 --times
+-D triangleGML.attibuteTrace
 #--no-traces
 --next
 -cmd cd cpp/

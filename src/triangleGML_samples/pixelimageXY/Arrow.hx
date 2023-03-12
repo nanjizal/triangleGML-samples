@@ -12,8 +12,8 @@ function main(){
     var parser = new TriangleGML( pixelShape );
     // parser.addShape( aGrid,         10,    0 );
     for( anArrow in [ arrowShapeTest
-                    , arrowShapeReverseFlareTest
-                    , arrowShapeFlareTest
+                    //, arrowShapeReverseFlareTest
+                    //, arrowShapeFlareTest
                     //, arrowThickGradientTest
                 ]){
         parser.addShape( anArrow );
